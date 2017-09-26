@@ -11,6 +11,10 @@ public class MouseStuff : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+	}
+
+		void OnMouseDown() {
+			renderer.material.color -= new Color(0.1F, 0, 0) * Time.deltaTime;
+	  }
 	}
 }
