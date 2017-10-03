@@ -102,6 +102,7 @@
 -define:UNITY_TEAM_LICENSE
 -define:UNITY_PRO_LICENSE
 'Assets/explode.cs'
+'Assets/NewBehaviourScript.cs'
 'Assets/Patrol.cs'
 'Assets/PlayerMovement.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'

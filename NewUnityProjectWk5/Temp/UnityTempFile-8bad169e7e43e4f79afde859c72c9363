@@ -101,6 +101,7 @@
 -define:ENABLE_NATIVE_ARRAY_CHECKS
 -define:UNITY_TEAM_LICENSE
 -define:UNITY_PRO_LICENSE
+'Assets/enemyupdown.cs'
 'Assets/explode.cs'
 'Assets/Patrol.cs'
 'Assets/PlayerMovement.cs'

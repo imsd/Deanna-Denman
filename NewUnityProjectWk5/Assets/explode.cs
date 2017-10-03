@@ -4,20 +4,69 @@ using UnityEngine;
 
 public class explode : MonoBehaviour {
 
-	public GameObject explosion; // drag your explosion prefab here
-
-	void OnCollisionEnter(){
-		GameObject expl = Instantiate(explosion, transform.position, Quaternion.identity) as GameObject;
-		Destroy(gameObject); // destroy the box
-		Destroy(expl, 3); // delete the explosion after 3 seconds
-	// Use this for initialization
 
 
 
-		}
-	}
-	
-	// Update is called once per frame
 
 		
-	
+		// - instantiates a explosion prefab when hitting a surface
+
+		// - then destroys itself
+
+		public GameObject explosionPrefab;
+
+		public float      explodeSecs = -1;
+
+
+
+		void Awake()
+
+		{
+
+			if(explodeSecs > -1) Invoke ("DestroyNow", explodeSecs);
+
+		}
+
+
+
+		void OnCollisionEnter( Collision collision ) 
+
+		{
+
+			// Rotate the object so that the y-axis faces along the normal of the surface
+
+			ContactPoint contact = collision.contacts[0];
+
+			Quaternion   rot     = Quaternion.FromToRotation(Vector3.up, contact.normal);
+
+			Vector3      pos     = contact.point;
+
+			Instantiate(explosionPrefab, pos, rot);
+
+			// Destroy the projectile
+
+			Destroy (gameObject);
+
+		}
+
+
+
+		void DestroyNow()
+
+		{
+
+			Instantiate(explosionPrefab, transform.position, transform.rotation);
+
+			Destroy (gameObject);
+
+		}
+
+
+
+
+
+
+
+
+
+	}
