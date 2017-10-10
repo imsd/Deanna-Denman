@@ -101,7 +101,12 @@
 -define:ENABLE_NATIVE_ARRAY_CHECKS
 -define:UNITY_TEAM_LICENSE
 -define:UNITY_PRO_LICENSE
-'Assets/snapshot.cs'
+'Assets/capture.cs'
+'Assets/enemyupdown.cs'
+'Assets/explode.cs'
+'Assets/Patrol.cs'
+'Assets/PlayerMovement.cs'
+'Assets/YouWin.cs'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Runtime.Serialization.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/System.Xml.Linq.dll'
 -r:'/Applications/Unity/Unity.app/Contents/Mono/lib/mono/unity/UnityScript.dll'
