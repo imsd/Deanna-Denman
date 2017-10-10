@@ -2,4 +2,4 @@ My project was supposed to be a very generic maze game that has enemies in the m
 
 The way you play the game is by using the up,down, left and right keys to control your player and progress in the maze until you finally meet up with "princess generic" lol. once you have reached her the game is over.
 
-![Screenshot from project]Project.gif
+![Screenshot from project](Project.gif)
