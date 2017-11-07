@@ -1,0 +1,29 @@
+
+{
+  "origin": "#Interjection#, #name#! Im a #profession# not a #profession#!",
+  "Interjection": [ " Damn",
+                   "Alas",
+                   "Oh Dear God",
+                   "Good Grief",
+                   "WUBALUBADUBDUB"
+                   
+  ],
+ "name": [ "Morty",
+           "Donald Trump",
+           "EA",
+         "Mr.Krabs",
+         "Spongebob"
+  ],
+  
+  "profession": [ "Soundcloud Rapper",
+                 "programmer",
+                 "mailman",
+                 "pizza delivery guy",
+                 "pimp",
+                 "stripper",
+                 "anime character",
+                 "extortionist"
+  
+  ] 
+  
+}
