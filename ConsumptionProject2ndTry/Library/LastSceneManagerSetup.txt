@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/trashbins.unity
+  isLoaded: 1
+  isActive: 1
